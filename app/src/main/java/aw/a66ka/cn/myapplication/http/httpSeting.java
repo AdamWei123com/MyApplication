@@ -19,6 +19,7 @@ import retrofit2.Retrofit;
 
 public class httpSeting extends Application
 {
+    String a;
     OkHttpClient okhttp;
     Retrofit retrofit;
     CookieHandler cookiehandler;
